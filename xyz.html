@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="xyz.css">
+</head>
+<body>
+    <div class="letters">
+       
+            <p onmouseenter="show_amine(1)" id="p1">S</p>
+         <!-- <img src="images/s.png" alt=""> -->
+        <p onmouseenter="show_amine(2)" id="p2">a</p>
+        <p onmouseenter="show_amine(3)" id="p3">h</p>
+        <p onmouseenter="show_amine(4)" id="p4">i</p>
+        <p onmouseenter="show_amine(5)" id="p5">l</p>
+    </div>
+    <script>
+        function show_amine(n){
+var p=document.getElementById(`p${n}`);
+p.classList.add("para");
+        }
+    </script>
+</body>
+</html>
